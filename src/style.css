@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 0.875em;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 94%;
+  max-width: 30em;
+  margin: 2em auto;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5em;
+  width: 100%;
+}
+
+h1 {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+ul li {
+  display: block;
+  padding: 0.25em 1em;
+  border-bottom: 1px solid #ddd;
+}

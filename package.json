@@ -1,0 +1,14 @@
+{
+  "name": "hyperapp-emoji-search",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html --open"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "dependencies": {
+    "hyperapp": "^1.1.2"
+  }
+}
